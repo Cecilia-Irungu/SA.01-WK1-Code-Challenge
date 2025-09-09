@@ -22,9 +22,7 @@ let Grade;
     } else if (marks <40 && marks >= 0){
         Grade = "E";
 
-    } else {
-        Grade = "Invalid Text"
-    }   
+    }
 
     alert("The Grade is: " + Grade);
 }
